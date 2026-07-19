@@ -25,8 +25,8 @@ class Settings(BaseSettings):
     # CORS Configuration
     CORS_ORIGINS: List[str] = [
     "http://localhost:5173",
-    "https://fitness-o3vb.vercel.app",
-    "https://fitness-o3vb-fmbv0jfkg-shop-wise-ai.vercel.app",
+    "http://127.0.0.1:5173",
+    "https://fitness-ai-ten-sigma.vercel.app",
 ]
 
     @field_validator("CORS_ORIGINS", mode="before")
